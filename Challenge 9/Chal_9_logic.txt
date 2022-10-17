@@ -1,0 +1,36 @@
+1.-Understand the basic logic for salsa20 and other algorithms used/API used.
+	-Is there other algorithms present?
+
+2.-Understand where the possible flaw could reside on (RNG, etc)
+	-Use Applied Crypto specific section to understand better.
+
+3.-Break the crypto (final phase).
+-------------------------------------------------------------------------------------------
+Understanding the algorithm:
+
+
+1.-Salsa20:
+	-Is a stream cipher.
+	-Internal state of 16 DWORDs.
+	-Variation: Chacha 
+
+0.-Stream Cipher knowledge for salsa 20:
+	-Deterministic random bit generator -> Deterministic.
+	-Pseudorandom bits used to encrypt
+	-Input values: key and nonce. (Key around 256 bits, nonce unique per key: 64, 128 bits)
+	-Generates pseudorandom stream of bits: keystream, which is XORd with the plaintext.
+		-Look the equations to understand it.
+	-XORed again to decrypt it.
+	-Counter based: Produces chunks of keystream from a key.
+	-Permutations: Uses QR for transforming 32 bit words.
+
+
+
+-How to break it?
+	-Possible vulnerability 1: If the algorithm were to return the core’s permutation
+directly as an output, Salsa20 would be totally insecure, because it could
+be inverted.
+	-
+
+----------------------------------------------------------------------------------------------------
+-Run capa to see if it identifies any other algorithm.
