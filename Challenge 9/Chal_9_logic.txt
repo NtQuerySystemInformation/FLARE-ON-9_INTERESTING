@@ -30,7 +30,9 @@ Understanding the algorithm:
 	-Possible vulnerability 1: If the algorithm were to return the core’s permutation
 directly as an output, Salsa20 would be totally insecure, because it could
 be inverted.
-	-
 
 ----------------------------------------------------------------------------------------------------
 -Run capa to see if it identifies any other algorithm.
+
+
+-> What part of the algorithm is each of this hardcoded values initialized

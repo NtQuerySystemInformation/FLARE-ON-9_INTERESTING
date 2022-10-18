@@ -1,0 +1,2 @@
+-> What part of the algorithm is each of this hardcoded values initialized?
+->Generation of the public key?
