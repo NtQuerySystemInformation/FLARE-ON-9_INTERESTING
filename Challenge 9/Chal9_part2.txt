@@ -1,2 +1,5 @@
+-The problem:
+-You have 3 values related to the decryption algorithm, some parts of it
+
+--------------------------------------------------------------------
 -> What part of the algorithm is each of this hardcoded values initialized?
-->Generation of the public key?
