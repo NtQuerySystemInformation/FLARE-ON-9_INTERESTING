@@ -13,7 +13,7 @@ Questions to answer to be closer to the code:
 
 	-Importante:
 		-Analiza detalle a detalle la funcion de encriptacion, es demasiado sus.
-
+		-Verifica tu hipotesis, comparalo con el source de RSA que tienes, cual seria el approach correcto?
 
 
 
