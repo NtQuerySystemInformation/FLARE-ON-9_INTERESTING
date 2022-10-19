@@ -1,5 +1,22 @@
--The problem:
--You have 3 values related to the decryption algorithm, some parts of it
+-Analiza la funcion posGenPubKey y posGenPrivKey
 
---------------------------------------------------------------------
--> What part of the algorithm is each of this hardcoded values initialized?
+Questions to answer to be closer to the code:
+1.-Does Rsa::posEncryptingBuffer 1st and 2nd arg related to output buffers, and third and fourth are input?
+	-Which arg is in charge of the decrypted buffer?  (Test it 3 times)
+	1.-First call:
+		-first argument is the only one that gives output.
+		-Second is unmodified, third is unmodified and fourth is the only one that gives input.
+	
+	2.-Second call:
+		-Second, Third, and Fourth arguments have an input arg.
+		-First gives output, so it is confirmed this is the encryption output.
+
+	-Importante:
+		-Analiza detalle a detalle la funcion de encriptacion, es demasiado sus.
+		-Verifica tu hipotesis, comparalo con el source de RSA que tienes, cual seria el approach correcto?
+
+
+
+
+2.-Is Rsa::MultiplicationOfBlocks logic correct?, is it actually only multiplying?
+
