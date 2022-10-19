@@ -19,4 +19,3 @@ Questions to answer to be closer to the code:
 
 
 2.-Is Rsa::MultiplicationOfBlocks logic correct?, is it actually only multiplying?
-
