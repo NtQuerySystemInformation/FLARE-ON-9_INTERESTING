@@ -1,5 +1,6 @@
 -Analiza la funcion posGenPubKey y posGenPrivKey
 
+Primer analisis:
 Questions to answer to be closer to the code:
 1.-Does Rsa::posEncryptingBuffer 1st and 2nd arg related to output buffers, and third and fourth are input?
 	-Which arg is in charge of the decrypted buffer?  (Test it 3 times)
@@ -14,8 +15,14 @@ Questions to answer to be closer to the code:
 	-Importante:
 		-Analiza detalle a detalle la funcion de encriptacion, es demasiado sus.
 		-Verifica tu hipotesis, comparalo con el source de RSA que tienes, cual seria el approach correcto?
+-------------------------------------------------------------------------------------------------------------------------------------
+Segundo Analisis:
+Verifica los argumentos nuevamente para la funcion de encriptacion:
+Responde las siguientes preguntas:
 
+	1.-Es el segundo argumento un valor de entrada que se modifica dentro de la funcion? Y que hay de los otros argumentos?
+		-Es posible que el cuarto argumento se modifique en tiempo de ejecucion?
+		-Son los valores anotados los precisos de acuerdo a como se emplean adentro de la funcion?
 
-
-
-2.-Is Rsa::MultiplicationOfBlocks logic correct?, is it actually only multiplying?
+	2.-Es el valor de phi mas grande de lo que se espera?
+		-Es decir, mas de 128 bytes?, la funcion de encriptacion esta pasando el buffer una vez se termino la primera parte.
