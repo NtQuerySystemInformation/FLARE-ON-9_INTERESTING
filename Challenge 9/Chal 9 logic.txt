@@ -1,16 +1,15 @@
-1.-Se esta utilizando la RSA como signing check:
-	-pow(encoded, d, n) para encriptar.
-	-pow(encoded, e, n) para desencriptar.
-
 ->Logica: https://dev.to/dandyvica/understanding-public-private-rsa-keys-3j81
 ---------------------------------------------------------------------------------------------------
+->Recuerda 1: Una private/public key son tan solo estructuras de datos que contienen los coeficientes a manipular.
+->Recuerda 2: ciphertext = pow(inputKey, d, n) and plaintext = pow(inputKey, e, n)
+
 Que cosas faltan para acabar este chal?:
 
 1.-Desencriptar la llave:
-	->Elementos a tener en cuenta: Tienes n, encrypted key, y el exponente privado.
-	->Recuerda 1: Una private/public key son tan solo estructuras de datos que contienen los coeficientes a manipular.
-	->Recuerda 2: ciphertext = pow(inputKey, d, n) and plaintext = pow(inputKey, e, n)
+	->Elementos a tener en cuenta: Tienes n, encrypted key, y el exponente publico.
+	->Plot twist: Se puede derivar, busca como.
 
-2.-Una vez que tienes el key:
-	->Convierte la llave en little endian, reemplaza el RNG generado en el binary.
+2.-Desencriptar Salsa a traves del binario:
+	->RECUERDA: Como es simetrico, no es necesario rayarte con eso, solo consigue la llave, y reeplazas.
+	->Convierte la llave en little endian, reemplaza el key en tiempo de ejecucion.
 	->Luego aplica el archivo con los contenidos a desencriptar, y tienes tu flag.

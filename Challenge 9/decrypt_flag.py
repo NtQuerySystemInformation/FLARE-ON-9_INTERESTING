@@ -1,17 +1,8 @@
 import rsa
 
-
-#Emulate encryption.
-def decrypt_key(keyNonce, buffer):  
-    
-    
-
-
 #You know
 def main():
-    f = open("TestEncryptor.txt.Encrypted", 'rb')
-      = f.read().
-    
+    normalKey = 
     
 
 if '__name__' == '__main__':
