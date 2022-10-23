@@ -1,0 +1,16 @@
+1.-Se esta utilizando la RSA como signing check:
+	-pow(encoded, d, n) para encriptar.
+	-pow(encoded, e, n) para desencriptar.
+
+->Logica: https://dev.to/dandyvica/understanding-public-private-rsa-keys-3j81
+---------------------------------------------------------------------------------------------------
+Que cosas faltan para acabar este chal?:
+
+1.-Desencriptar la llave:
+	->Elementos a tener en cuenta: Tienes n, encrypted key, y el exponente privado.
+	->Recuerda 1: Una private/public key son tan solo estructuras de datos que contienen los coeficientes a manipular.
+	->Recuerda 2: ciphertext = pow(inputKey, d, n) and plaintext = pow(inputKey, e, n)
+
+2.-Una vez que tienes el key:
+	->Convierte la llave en little endian, reemplaza el RNG generado en el binary.
+	->Luego aplica el archivo con los contenidos a desencriptar, y tienes tu flag.
