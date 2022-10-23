@@ -7,7 +7,8 @@ Que cosas faltan para acabar este chal?:
 
 1.-Desencriptar la llave:
 	->Elementos a tener en cuenta: Tienes n, encrypted key, y el exponente publico.
-	->Plot twist: Se puede derivar, busca como.
+	->Plot twist: Genera un key pair:
+		-RSA signing es la vulnerabilidad en la implementacion.
 
 2.-Desencriptar Salsa a traves del binario:
 	->RECUERDA: Como es simetrico, no es necesario rayarte con eso, solo consigue la llave, y reeplazas.
