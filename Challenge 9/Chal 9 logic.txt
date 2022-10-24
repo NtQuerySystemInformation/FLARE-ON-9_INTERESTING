@@ -9,6 +9,11 @@ Que cosas faltan para acabar este chal?:
 	->Elementos a tener en cuenta: Tienes n, encrypted key, y el exponente publico.
 	->Plot twist: Genera un key pair:
 		-RSA signing es la vulnerabilidad en la implementacion.
+	
+	->Identify the e/d buffer:
+		-Hypothesis: Seems to be replacing the entire e exponent with a new buffer, what is this new buffer?
+			->Multiplicative inverse.
+		-https://medium.com/@bn121rajesh/rsa-sign-and-verify-using-openssl-behind-the-scene-bf3cac0aade2
 
 2.-Desencriptar Salsa a traves del binario:
 	->RECUERDA: Como es simetrico, no es necesario rayarte con eso, solo consigue la llave, y reeplazas.
