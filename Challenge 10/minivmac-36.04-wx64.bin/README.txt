@@ -6,8 +6,9 @@ image to help you complete the challenge, though you will likely also need to do
 outside research to guess the passphrase.
 
 This application can be run on any Macintosh emulator (or any real Macintosh from as far
-back as a Mac Plus running System 6.0.x up to a G5 running Classic).  The setup of the
-emulation environment is part of the challenge, so few spoilers live here, but if you
+back as a Mac Plus running System 6.0.x up to a G5 running Classic). 
+
+The setup of the emulation environment is part of the challenge, so few spoilers live here, but if you
 want to save yourself some headaches, Mini vMac is a pretty good choice that doesn't take
 much effort to get up and running compared to some other options.
 
@@ -17,5 +18,16 @@ many machines and emulators, and validated to run well on Mac OS from 6.0.8 thro
 
 Happy solving!  Be curious!
 
+-------------------------------------------------------------------------------------------------------
 DAY 1: Set up the env:
-->Apple DiskCopy 4.2 image Nur getr\212umt, 1474560 bytes, MFM CAV dshd (1440k), 0x2 format.
+
+1.-Disk type:
+	->Macintosh disk image (Disk copy 4.2 format).
+	->Apple DiskCopy 4.2 image Nur getr\212umt, 1474560 bytes, MFM CAV dshd (1440k), 0x2 format.
+	
+There is one error at the parsing level of the diskcopy file, very specific error.	
+	-Check the other disk file, do they have the same file format?
+
+
+2.-
+
