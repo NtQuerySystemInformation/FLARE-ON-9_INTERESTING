@@ -16,3 +16,6 @@ and Resourcerer (my old setup from roughly 1997, still alive!).  It was tested o
 many machines and emulators, and validated to run well on Mac OS from 6.0.8 through 10.4.
 
 Happy solving!  Be curious!
+
+DAY 1: Set up the env:
+->Apple DiskCopy 4.2 image Nur getr\212umt, 1474560 bytes, MFM CAV dshd (1440k), 0x2 format.
