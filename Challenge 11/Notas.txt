@@ -8,7 +8,7 @@
 
 Knowledge of deobfuscation techniques:
 	-Most old versions of unpacking pyarmor, doesnt work.
-	-Most likely super mode for unpacking.
+	-Most likely super mode for unpacking, no available public tooling for this.
 
 -Hint:
 	-Instead of trying to break the protection, use basic analysis tooling: 
@@ -16,7 +16,7 @@ Knowledge of deobfuscation techniques:
 	
 	-Noticed:
 		-There is dns been requested to www.evil.flare-on.com, using UDP, look at it.
-		-Can you emulate this?
+		-Can you emulate this?, probably, take a look at wireshark and procmon.
 
 
 -Current approach:
