@@ -3,7 +3,7 @@ Impossible to make it run on other place other than linux.
 
 ->Look a little bit at the disassembly and the hints.
 
-Hints: 1983 -> Artist Nena
+Hints: 	1983 -> Artist Nena
 	 Songs -> 99 luftballons -> Hast du etwas Zeit für mich, replies with Dann singe ich ein Lied für dich 
 	       ->Nur geträumt -> Not proper reply
 	 (Both from same album: Nena)
