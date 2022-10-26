@@ -1,6 +1,24 @@
 1.-Se esta usando pyinstaller y pyarmor.
 	-Recomendacion obligatoria: Utiliza python 3.7 para unpacking de pyinstaller.
 
-2.-Links deobfuscation pyarmor:
+2.-Links deobfuscation pyarmor: (Busca mas y intenta hacer que funcione)
 	-https://devilinside.me/blogs/unpacking-pyarmor
 	-https://github.com/Svenskithesource/PyArmor-Unpacker
+	-https://forum.tuts4you.com/topic/43059-helpme-pyarmor-obfuscated-malware/
+
+Knowledge of deobfuscation techniques:
+	-Most old versions of unpacking pyarmor, doesnt work.
+	-Most likely super mode for unpacking.
+
+-Hint:
+	-Instead of trying to break the protection, use basic analysis tooling: 
+		-procmon, wireshark, or apimonitor (dynamic instrumentation tooling)
+	
+	-Noticed:
+		-There is dns been requested to www.evil.flare-on.com, using UDP, look at it.
+		-Can you emulate this?
+
+
+-Current approach:
+	-Find trick to finish 11 (Outside of the box)
+	-Find a way to unpack this challenge.
