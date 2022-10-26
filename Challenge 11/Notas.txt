@@ -1,4 +1,6 @@
 1.-Se esta usando pyinstaller y pyarmor.
 	-Recomendacion obligatoria: Utiliza python 3.7 para unpacking de pyinstaller.
 
-2.-Links deobfuscation pyarmor:https://devilinside.me/blogs/unpacking-pyarmor
+2.-Links deobfuscation pyarmor:
+	-https://devilinside.me/blogs/unpacking-pyarmor
+	-https://github.com/Svenskithesource/PyArmor-Unpacker
