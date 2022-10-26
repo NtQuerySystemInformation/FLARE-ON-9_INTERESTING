@@ -1,1 +1,0 @@
-1.-Find a way so the emulator finally fucking loads the disk image.
