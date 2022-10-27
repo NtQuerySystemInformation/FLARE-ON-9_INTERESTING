@@ -19,7 +19,7 @@ Knowledge of deobfuscation techniques:
 Main logic (Herramientas principales: Procmon (para stack trace), Wireshark (Para paquetes enviados), netstat -b -o (para revisar conexiones), x64dbg (para depurar las funciones especificas):
 	-Esta injectando el payload a browsers:
 		->parece ser principalmente a firefox.exe, ya que edge no parece tener connexiones con netstat -b -o
-		->No se de donde esta inyectando.
+		->No se de donde esta inyectando, pero tengo nss3.dll para esto.
 	-Entiende con debugger + wireshark, que esta pasando.
 
 
