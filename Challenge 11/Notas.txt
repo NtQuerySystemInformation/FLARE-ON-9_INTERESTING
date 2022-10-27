@@ -18,6 +18,9 @@ Knowledge of deobfuscation techniques:
 		-There is dns been requested to www.evil.flare-on.com, using UDP, look at it.
 		-Can you emulate this?, probably, take a look at wireshark and procmon.
 
+	->Esta injectando el payload a browsers, tienes que depurar el codigo:
+		-Utiliza el stack trace de procmon
+
 
 -Current approach:
 	-Find trick to finish 11 (Outside of the box)
