@@ -27,7 +27,9 @@ Main logic (Herramientas principales: Procmon (para stack trace), Wireshark (Par
 		->Es muy raro, es como si estuviera generando base64
 	->INCORRECTO: No setees un DNS entry para evil.flare-on.com
 		->Crea un server DNS para este evil.flare-on.com
-
+------------------------------------------------------------------------------------------------------------------------------------------
+Solucion "speedrun":
+	-Teniendo en cuenta que 11.pyc no se podia ejecutar normalmente, si le añades modulos de python, y imprimes los valores, te vas a dar cuenta que uno de ellos contiene el flag.
 
 
 -Current approach:
