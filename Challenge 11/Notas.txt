@@ -21,6 +21,13 @@ Main logic (Herramientas principales: Procmon (para stack trace), Wireshark (Par
 		->parece ser principalmente a firefox.exe, ya que edge no parece tener connexiones con netstat -b -o
 		->No se de donde esta inyectando, pero tengo nss3.dll para esto.
 	-Entiende con debugger + wireshark, que esta pasando.
+	
+	->Esta haciendo send y recv, tienes que descifrar como trabajar esto, el debugger no es necesario.
+	->Simplemente utiliza wireshark y concentrate en los paquetes de loopback.
+		->Es muy raro, es como si estuviera generando base64
+	->INCORRECTO: No setees un DNS entry para evil.flare-on.com
+		->Crea un server DNS para este evil.flare-on.com
+
 
 
 -Current approach:
