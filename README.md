@@ -1,4 +1,4 @@
-#FLARE-ON 9 Interesting: The most interesting of the challenges of all FLARE-ON 9! (for me)
+# FLARE-ON 9 Interesting: The most interesting of the challenges of all FLARE-ON 9! (for me)
 
 RELEASE DATE: 11-11-2022.
 
