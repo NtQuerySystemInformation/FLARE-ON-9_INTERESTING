@@ -3,19 +3,15 @@
 ->Recuerda 1: Una private/public key son tan solo estructuras de datos que contienen los coeficientes a manipular.
 ->Recuerda 2: ciphertext = pow(inputKey, d, n) and plaintext = pow(inputKey, e, n)
 
-Que cosas faltan para acabar este chal?:
+What do I need to know to finish this chal?
 
-1.-Desencriptar la llave:
-	->Elementos a tener en cuenta: Tienes n, encrypted key, y el exponente publico.
-	->Plot twist: Genera un key pair:
-		-RSA signing es la vulnerabilidad en la implementacion.
-	
-	->Identify the e/d buffer:
-		-Hypothesis: Seems to be replacing the entire e exponent with a new buffer, what is this new buffer?
-			->Multiplicative inverse.
-		-https://medium.com/@bn121rajesh/rsa-sign-and-verify-using-openssl-behind-the-scene-bf3cac0aade2
+1.-Decrypt the salsa20 key:
+	->What do you know?: n, ciphertext, public exponent.
+	->It is using the public exponent, and when deriving and replacing it for a private exponent at runtime. 
+		->(Special thanks to Jiri for letting me know about RSA signing and some tricks about the crypto algos, which I had no clue about.)
+	->Therefore you can decrypt it using: plaintext = pow(ciphertext, e, n)
 
-2.-Desencriptar Salsa a traves del binario:
-	->RECUERDA: Como es simetrico, no es necesario rayarte con eso, solo consigue la llave, y reeplazas.
-	->Convierte la llave en little endian, reemplaza el key en tiempo de ejecucion.
-	->Luego aplica el archivo con los contenidos a desencriptar, y tienes tu flag.
+2.-Decrypt the core payload:
+	->You can code a deobfuscator on your own... or you can make the binary decrypt it for you at runtime, replacing the decrypted salsa20 key in-memory (key symmetric property).
+	->You just need to convert the key to little endian, and you have the "encrypted file" with the decrypted flag.
+
