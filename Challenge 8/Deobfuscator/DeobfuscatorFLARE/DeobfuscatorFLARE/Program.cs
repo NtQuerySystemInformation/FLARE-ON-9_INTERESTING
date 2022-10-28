@@ -2884,10 +2884,9 @@ namespace DeobfuscatorFLARE
         {
             //Deobfuscation Layer 1.
 
-            //string buffer = @"C:\Users\User\Downloads\08_backdoor\FlareOn.Backdoor.exe";
-           // Deobfuscator deobfuscator = new Deobfuscator(buffer);
-            //deobfuscator.DeobfuscateLayer1();
-
+            string buffer = @"C:\Users\User\Downloads\08_backdoor\FlareOn.Backdoor.exe";
+            Deobfuscator deobfuscator = new Deobfuscator(buffer);
+            deobfuscator.DeobfuscateLayer1();
 
             //Deobfuscation Layer 2.
             string patched = @"C:\Users\User\Downloads\08_backdoor\FlareOn.Backdoor.exe_patched.exe";
