@@ -13,10 +13,23 @@ Knowledge of deobfuscation techniques:
 -Hint:
 	-Instead of trying to break the protection, use basic analysis tooling: 
 		-procmon, wireshark, or apimonitor (dynamic instrumentation tooling)
-	
 	-Noticed:
 		-There is dns been requested to www.evil.flare-on.com, using UDP, look at it.
-		-Can you emulate this?, probably, take a look at wireshark and procmon.
+		
+Main logic (Herramientas principales: Procmon (para stack trace), Wireshark (Para paquetes enviados), netstat -b -o (para revisar conexiones), x64dbg (para depurar las funciones especificas):
+	-Esta injectando el payload a browsers:
+		->parece ser principalmente a firefox.exe, ya que edge no parece tener connexiones con netstat -b -o
+		->No se de donde esta inyectando, pero tengo nss3.dll para esto.
+	-Entiende con debugger + wireshark, que esta pasando.
+	
+	->Esta haciendo send y recv, tienes que descifrar como trabajar esto, el debugger no es necesario.
+	->Simplemente utiliza wireshark y concentrate en los paquetes de loopback.
+		->Es muy raro, es como si estuviera generando base64
+	->INCORRECTO: No setees un DNS entry para evil.flare-on.com
+		->Crea un server DNS para este evil.flare-on.com
+------------------------------------------------------------------------------------------------------------------------------------------
+Solucion "speedrun":
+	-Teniendo en cuenta que 11.pyc no se podia ejecutar normalmente, si le añades modulos de python, y imprimes los valores, te vas a dar cuenta que uno de ellos contiene el flag.
 
 
 -Current approach:
