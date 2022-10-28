@@ -1,0 +1,16 @@
+C:\Users\rodri\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\bin\Debug\DecryptionEmulator.exe.config
+C:\Users\rodri\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\bin\Debug\DecryptionEmulator.exe
+C:\Users\rodri\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\bin\Debug\DecryptionEmulator.pdb
+C:\Users\rodri\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\obj\Debug\DecryptionEmulator.csproj.AssemblyReference.cache
+C:\Users\rodri\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\obj\Debug\DecryptionEmulator.csproj.SuggestedBindingRedirects.cache
+C:\Users\rodri\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\obj\Debug\DecryptionEmulator.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\obj\Debug\DecryptionEmulator.exe
+C:\Users\rodri\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\obj\Debug\DecryptionEmulator.pdb
+C:\Users\User\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\bin\Debug\DecryptionEmulator.exe.config
+C:\Users\User\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\bin\Debug\DecryptionEmulator.exe
+C:\Users\User\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\bin\Debug\DecryptionEmulator.pdb
+C:\Users\User\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\obj\Debug\DecryptionEmulator.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\obj\Debug\DecryptionEmulator.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\obj\Debug\DecryptionEmulator.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\obj\Debug\DecryptionEmulator.exe
+C:\Users\User\Documents\GitHub\DecryptionEmulator\DecryptionEmulator\DecryptionEmulator\obj\Debug\DecryptionEmulator.pdb
