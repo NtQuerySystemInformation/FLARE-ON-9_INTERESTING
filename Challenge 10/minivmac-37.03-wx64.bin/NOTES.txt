@@ -10,7 +10,7 @@ Hints: 	1983 -> Artist Nena
 	
 Solution:
 	-You cannot put umlaut in the input value to get the flag, therefore you need to fix the decrypted flag.
-		-This is basically the final solution: Dann singe ich ein Lied für dich, without umlaut.
+		-This is basically the final solution: Dann singe ich ein Lied für dich, without umlaut and some of the incorrectly decrypted flag.
 
 IMPORTANT:
 	-Change keyboard so you can write in german in linux
