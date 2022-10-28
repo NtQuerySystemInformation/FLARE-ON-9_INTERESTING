@@ -1,0 +1,13 @@
+Try modify the response as well as understanding how it's being decoded with rc4 and base64. 
+The response itself is the encoded flag, which you already have in the pcap
+
+-Core logic:	
+	-You already know which methods have the encrypt-decrypt response:
+		-You also know the expected responses to solve the challenge.	
+
+	-The ideal way would be:
+		-Emulate the network connection:
+			1.-Hook the network APIs (make all return as expected, correct)
+				-Differenciate based on WinHttpSendRequest.
+
+			2.-for  WinHttpReadData, return the expected response.

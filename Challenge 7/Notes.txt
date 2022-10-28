@@ -1,0 +1,12 @@
+1.-The core logic followed here is that the operations done inside the JS can be reversed, and
+therefore, not need to use z3.
+
+This is because it is mainly using SUM (+), SUB(-) and XOR(^).
+You can reverse Sums and Subs, but you couldnt apply the reverse of XOR 
+because it leaves the specific array index unmodified.
+
+My script deobfuscate.py does most of the job, but there was one mistake related to whitespaces
+that led me to a lot of time wasted (Special thanks to Myrtus for pointing me out this).
+
+
+Additionally, you could patch the binary so you can make it output what you want in terms of Javascript.
