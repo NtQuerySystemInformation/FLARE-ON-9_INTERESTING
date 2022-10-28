@@ -7,7 +7,8 @@ What do I need to know to finish this chal?
 
 1.-Decrypt the salsa20 key:
 	->What do you know?: n, ciphertext, public exponent.
-	->It is using the public exponent, and when deriving and replacing it for a private exponent at runtime. 
+	->It is using the public exponent, and inside the same function, deriving and replacing it for a private exponent at runtime. 
+		->But you already know the public exponent, so what is happening?: RSA Signing
 		->(Special thanks to Jiri for letting me know about RSA signing and some tricks about the crypto algos, which I had no clue about.)
 	->Therefore you can decrypt it using: plaintext = pow(ciphertext, e, n)
 
