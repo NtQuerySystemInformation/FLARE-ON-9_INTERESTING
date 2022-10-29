@@ -11,3 +11,10 @@ The response itself is the encoded flag, which you already have in the pcap
 				-Differenciate based on WinHttpSendRequest.
 
 			2.-for  WinHttpReadData, return the expected response.
+			
+Solution:
+	-Once I was able to rebuild the target object, I had to find a way to interface with the network functionalities of the malware.
+	Because of this reason, I learned a new technique that involved setting the domain in hosts file to resolve it to loopback
+	and then make an HTTP server that resolves the expected buffer values.
+	
+	After you have done this, you are able to spot the flag after one of vtable funcions processed the information.
