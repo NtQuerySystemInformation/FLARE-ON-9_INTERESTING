@@ -9,7 +9,7 @@ Hints: 	1983 -> Artist Nena
 	 (Both from same album: Nena)
 	
 Solution:
-	-You cannot put umlaut in the input value to get the flag, therefore you need to fix the decrypted flag.
+	-You cannot put umlaut in the input value to get the flag, therefore you need to fix the incorrectly decrypted flag.
 		-This is basically the final solution: Dann singe ich ein Lied für dich, without umlaut. 
 
 IMPORTANT:
